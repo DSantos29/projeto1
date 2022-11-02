@@ -207,7 +207,8 @@ strong {
     display: flex;
     justify-content: right;
     align-items: flex-end;
-    padding-right: 40px;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 #meush .iconesh {
@@ -222,7 +223,7 @@ strong {
     padding: 5px 10px 5px 10px;
     border-radius: 10px 0px 10px 0px;
     box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.2);
-    margin-top: 300px;
+    margin-top: 100px;
     margin-left: 90px;
     opacity: 0.2;
 
