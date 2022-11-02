@@ -4,7 +4,8 @@
 }
 
 body {
-    width: 100vw;
+
+    width: 99vw;
     height: 100vh;
     background-color: #0a0707;
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +14,6 @@ body {
 /*Meu menu*/
 nav {
 
-    width: 100vw;
     height: 80px;
     background-color: rgb(32, 32, 32);
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
@@ -60,7 +60,7 @@ nav .redes img {
 
     width: 20px;
     height: 20px;
-    padding-left: 20px;
+    margin-left: 20px;
 }
 
 nav .redes img:hover {
@@ -78,7 +78,7 @@ nav .logo {
 /*Começo do banner*/
 .banner {
 
-    width: 100vw;
+    width: 99vw;
     height: 500px;
     display: flex;
 
@@ -86,7 +86,7 @@ nav .logo {
 
 .banner #sobre {
 
-    width: 50vw;
+    width: 49vw;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -95,13 +95,13 @@ nav .logo {
 
 .sobremim {
 
-    width: 50vw;
+    width: 49vw;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 30px;
+    margin-left: 30px;
 
 }
 
@@ -129,7 +129,7 @@ strong {
 
 .banner #eu {
 
-    width: 50vw;
+    width: 49vw;
     height: 500px;
     display: flex;
     justify-content: center;
@@ -160,7 +160,7 @@ strong {
 
 .hobbies {
 
-    width: 100vw;
+    width: 99vw;
     height: 500px;
     background-color: white;
     display: flex;
@@ -172,7 +172,7 @@ strong {
 .hobbies #fotoh {
 
     width: 30vw;
-    height: 500px;
+    height: 470px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,7 +180,7 @@ strong {
 }
 
 .hobbies #fotoh img {
-
+    
     background-color: #0a0707;
     border-radius: 0px 20px 0px 0px;
     padding: 30px 50px 30px 50px;
@@ -197,6 +197,7 @@ strong {
 
 .hobbies #meush {
 
+    width: 70vw;
     display: flex;
     flex-direction: column;
 }
@@ -206,9 +207,9 @@ strong {
 
     display: flex;
     justify-content: right;
-    align-items: flex-end;
-    padding-right: 30px;
-    padding-left: 30px;
+    align-items:flex-end;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 #meush .iconesh {
@@ -233,13 +234,14 @@ strong {
 
 #meush .iconesh img:hover {
     opacity: 0.9;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     background-color: #ff7c08;
 }
 
 #meush h1 {
     font-size: 40px;
+    margin-bottom: 20px;
 }
 
 /*Final dos hobbies*/
@@ -248,7 +250,7 @@ strong {
 
 .projetos {
 
-    width: 100vw;
+    width: 99vw;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -303,7 +305,7 @@ strong {
 
 .contato {
 
-    width: 100vw;
+    width: 99vw;
     height: 700px;
     background-color: #ffffff;
     color: #0a0707;
